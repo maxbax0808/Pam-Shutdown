@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 #initialization
 
-mkdirexitstatus=$(mkdir -p "etc/pamShutdown")
+mkdirexitstatus=$(mkdir -p "/etc/pamShutdown")
 
 #TODO what if folder does not exist and mkdir cannot create?
 
-countfile=etc/pamShutdown/count
+countfile=/etc/pamShutdown/count
 if [ -f $countfile ]; then # if file exists
   typeset -i count=$(cat ${countfile}) # read number as integer
   if [ $count -ge 3 ]; then
@@ -16,3 +16,4 @@ if [ -f $countfile ]; then # if file exists
 else
   echo "1" > $countfile
 fi
+return 0
