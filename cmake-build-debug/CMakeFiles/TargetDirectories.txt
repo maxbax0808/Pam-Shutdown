@@ -1,3 +1,0 @@
-/home/max/UNI/PAM-Shutdown/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/max/UNI/PAM-Shutdown/cmake-build-debug/CMakeFiles/PAM_Shutdown.dir
-/home/max/UNI/PAM-Shutdown/cmake-build-debug/CMakeFiles/edit_cache.dir

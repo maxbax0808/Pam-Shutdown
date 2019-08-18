@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/PAM_Shutdown.dir/main.cpp.o  -o PAM_Shutdown 
