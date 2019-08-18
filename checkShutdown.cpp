@@ -9,7 +9,7 @@ int main() {
     std::string countfilepath = "/etc/pamshutdown/count";
 
 
-    int mk = mkdir(pathname.c_str(), 0777); //check if directory exists and 
+    int mk = mkdir(pathname.c_str(), 0777); //check if directory exists and
     if(mk == 0){
         std::ofstream of;
         of.open(countfilepath, std::ios::in);
